@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Tahoma, Arial, STXihei, “华文细黑”, Heiti, “黑体”, “Microsoft YaHei”, “微软雅黑”, SimSun, “宋体”, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.yellow-box {
+    width: 760px;
+    height: 360px;
+    border-radius: 10px;
+    border: 10px solid #302447;
+    background-color: #fbdb0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    z-index: -1;
+}
+
+.slot-box {
+    width: 500px;
+    height: 140px;
+    border-radius: 10px;
+    border: 10px solid #302447;
+    background-color: #dde3de;
+    position: relative;
+}
+
+.white-box {
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+.top-box {
+    width: 900px;
+    height: 80px;
+    border-radius: 50px;
+    border: 10px solid #302447;
+    background-color: #fbdb0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 60px;
+    color: #2d2419;
+    font-weight: 700;
+}
+
+.bottom-box {
+    margin-top: -20px;
+    width: 900px;
+    height: 120px;
+    border-radius: 40px;
+    border: 10px solid #302447;
+    background-color: #fbdb0f;
+    position: relative;
+}
+
+.way-out {
+    width: 300px;
+    height: 60px;
+    border-radius: 40px;
+    border: 10px solid #302447;
+    background-color: #fbdb0f;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.way-out-line {
+    width: 200px;
+    height: 20px;
+    border-radius: 40px;
+    background-color: #E99649;
+}
+
+.botton {
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    border: 10px solid #302447;
+    background-color: #E99649;
+    position: absolute;
+    top: 20px;
+    right: 70px;
+}
+
+.botton:active {
+    top: 25px;
+}
